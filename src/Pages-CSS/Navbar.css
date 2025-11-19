@@ -1,0 +1,57 @@
+.business-name {
+  position: fixed;
+  top: 0.5rem;
+  left: 0;
+  padding-left: clamp(0.75rem, 8vw, 250px);
+  text-align: left;
+  line-height: clamp(40px, 4.5vh, 63px);
+  font-weight: bold;
+  font-size: clamp(1.25rem, 3.6vw, 2.6rem);
+  z-index: 1000;
+  font-family: "Delicious Handrawn", cursive;
+}
+
+.navbar-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffe6f0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 999;
+  padding: 0.5rem 4rem;
+  display: flex;
+  justify-content: flex-end;
+  height: 65px;
+}
+
+.navbar-top .nav-link {
+  color: #b22272;           
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-top .nav-link:hover,
+.navbar-top .nav-link.active {
+  color: #ff99c8;         
+}
+
+body {
+  background-color: #fff0f6;  
+  color: #333;                
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#about-section {
+  padding-top: 80px;        
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#about-section h1 {
+  color: #b22272;         
+  font-size: 2.5rem;
+  font-weight: 600;
+}

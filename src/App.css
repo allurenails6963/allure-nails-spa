@@ -1,0 +1,40 @@
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0rem;
+  text-align: center;
+  max-width: none;
+  min-width: 0;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Tinos";
+}
+
+
+@media (max-width: 815px) {
+  .menuItems {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+    min-width: auto;
+  }
+
+  .menuItems li {
+    margin: 1rem 0;
+  }
+
+  .menuItems a {
+    font-size: 18px;
+  }
+
+  #root {
+    padding: 1rem;
+  }
+}
